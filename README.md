@@ -45,9 +45,3 @@ Esta versión inicial ya permite:
 - Persistencia en memoria (sin base de datos todavía).
 - Token de sesión simple (siguiente paso: JWT + refresh).
 - Estrategia `balanced` inicial (se mejorará con optimización más avanzada).
-
-## Comandos de calidad
-
-- API tests: `pnpm --filter api test`
-- Typecheck API: `pnpm --filter api typecheck`
-- Typecheck web: `pnpm --filter web typecheck`
